@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Array transversing</title>
+    <script>
+        let data = [9,45,1,7,23,0,22,42,77]    
+        // for(let i =0; i<data.length ; i++){
+        //     document.write(`${data[i]} <br>` )
+        // }
+
+        function getElement(){
+            let el = document.getElementById('element').value
+                alert(data[el])
+        }
+        </script>
+</head>
+<body>
+    <input type="text" id="element" />
+    <button onclick="getElement()" >get Element</button>
+</body>
+</html>
